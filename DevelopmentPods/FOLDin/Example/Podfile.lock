@@ -1,0 +1,43 @@
+PODS:
+  - FDNamespacer (1.0.0)
+  - FOLDin (1.0.0):
+    - FDNamespacer
+    - FOLDin/Core (= 1.0.0)
+    - FOLDin/DatePickerController (= 1.0.0)
+    - FOLDin/NavigationBar (= 1.0.0)
+    - FOLDin/PlaceholderView (= 1.0.0)
+    - FOLDin/PopupView (= 1.0.0)
+    - FOLDin/ProgressBar (= 1.0.0)
+    - FOLDin/TextField (= 1.0.0)
+  - FOLDin/Core (1.0.0):
+    - FDNamespacer
+  - FOLDin/DatePickerController (1.0.0):
+    - FDNamespacer
+  - FOLDin/NavigationBar (1.0.0):
+    - FDNamespacer
+  - FOLDin/PlaceholderView (1.0.0):
+    - FDNamespacer
+  - FOLDin/PopupView (1.0.0):
+    - FDNamespacer
+  - FOLDin/ProgressBar (1.0.0):
+    - FDNamespacer
+  - FOLDin/TextField (1.0.0):
+    - FDNamespacer
+
+DEPENDENCIES:
+  - FDNamespacer (from `../../FDNamespacer`)
+  - FOLDin (from `../`)
+
+EXTERNAL SOURCES:
+  FDNamespacer:
+    :path: "../../FDNamespacer"
+  FOLDin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FDNamespacer: 27e2f9b572a4a0ccd2b1f1f3377be08b91f62b7d
+  FOLDin: b1e03895f98451d1396f3a06da8b3b8146fb15d6
+
+PODFILE CHECKSUM: b44260cbecb2f4fe9fc3d3dd027feb1569a427c0
+
+COCOAPODS: 1.6.1

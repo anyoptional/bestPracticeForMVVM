@@ -1,0 +1,23 @@
+use_frameworks!
+
+target 'AppMusic_Example' do
+  
+  pod 'AppMusic', :path => '../'
+  
+  pod 'Fate', :path => '../../Fate'
+  pod 'Fatal', :path => '../../Fatal'
+  pod 'RxMoya', :path => '../../RxMoya'
+  pod 'FOLDin', :path => '../../FOLDin'
+  pod 'Mediator', :path => '../../Mediator'
+  pod 'SwiftyHUD', :path => '../../SwiftyHUD'
+  pod 'FDNamespacer', :path => '../../FDNamespacer'
+  pod 'AudioService', :path => '../../AudioService'
+
+  pod 'IQKeyboardManagerSwift'
+
+  target 'AppMusic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

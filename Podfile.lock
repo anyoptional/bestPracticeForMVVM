@@ -1,0 +1,410 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AppMusic (1.0.0):
+    - AppMusic/Controller (= 1.0.0)
+    - AppMusic/DataSource (= 1.0.0)
+    - AppMusic/Model (= 1.0.0)
+    - AppMusic/Utility (= 1.0.0)
+    - AppMusic/View (= 1.0.0)
+    - AppMusic/ViewModel (= 1.0.0)
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/Controller (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/DataSource (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/Model (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/Utility (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/View (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AppMusic/ViewModel (1.0.0):
+    - AudioService
+    - Fate
+    - FOLDin
+    - Mediator
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxMoya
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - RxSwiftExt (~> 3.4.0)
+    - SDCycleScrollView (~> 1.75)
+    - SkeletonView (~> 1.4.2)
+    - SnapKit (~> 4.2.0)
+    - SwiftyHUD
+    - YYKit (~> 1.0.9)
+  - AudioService (1.0.0):
+    - AudioService/AudioPlayer (= 1.0.0)
+    - AudioService/Core (= 1.0.0)
+    - Fatal
+    - RxMoya
+    - RxSwift (~> 4.4.2)
+  - AudioService/AudioPlayer (1.0.0):
+    - Fatal
+    - RxMoya
+    - RxSwift (~> 4.4.2)
+  - AudioService/Core (1.0.0):
+    - Fatal
+    - RxMoya
+    - RxSwift (~> 4.4.2)
+  - Fatal (1.0.0)
+  - Fate (1.0.0):
+    - Fate/Core (= 1.0.0)
+    - Fate/DataSource (= 1.0.0)
+    - Fate/GLark (= 1.0.0)
+    - Fate/Identifiable (= 1.0.0)
+    - Fate/ImageLoading (= 1.0.0)
+    - Fate/RunloopOptimize (= 1.0.0)
+    - Fate/RxAdaptor (= 1.0.0)
+    - Fate/SnapKitDSL (= 1.0.0)
+    - Fate/UILayoutAdaptor (= 1.0.0)
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/Core (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/DataSource (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/GLark (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/Identifiable (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/ImageLoading (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/RunloopOptimize (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/RxAdaptor (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/SnapKitDSL (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - Fate/UILayoutAdaptor (1.0.0):
+    - FDNamespacer
+    - MJRefresh (~> 3.1.15.7)
+    - RxCocoa (~> 4.4.2)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SDCycleScrollView
+    - SnapKit (~> 4.2.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+    - YYKit (~> 1.0.9)
+  - FDNamespacer (1.0.0)
+  - FOLDin (1.0.0):
+    - FDNamespacer
+    - FOLDin/Core (= 1.0.0)
+    - FOLDin/NavigationBar (= 1.0.0)
+    - FOLDin/PlaceholderView (= 1.0.0)
+    - FOLDin/PopupView (= 1.0.0)
+    - FOLDin/ProgressBar (= 1.0.0)
+    - FOLDin/TextField (= 1.0.0)
+  - FOLDin/Core (1.0.0):
+    - FDNamespacer
+  - FOLDin/NavigationBar (1.0.0):
+    - FDNamespacer
+  - FOLDin/PlaceholderView (1.0.0):
+    - FDNamespacer
+  - FOLDin/PopupView (1.0.0):
+    - FDNamespacer
+  - FOLDin/ProgressBar (1.0.0):
+    - FDNamespacer
+  - FOLDin/TextField (1.0.0):
+    - FDNamespacer
+  - IQKeyboardManagerSwift (6.2.0)
+  - MBProgressHUD (1.1.0)
+  - Mediator (1.0.0):
+    - Mediator/Category (= 1.0.0)
+    - Mediator/Core (= 1.0.0)
+    - Mediator/Supports (= 1.0.0)
+  - Mediator/Category (1.0.0)
+  - Mediator/Core (1.0.0)
+  - Mediator/Supports (1.0.0)
+  - MJRefresh (3.1.15.7)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxMoya (1.0.0):
+    - Fatal
+    - RxMoya/Core (= 1.0.0)
+  - RxMoya/Core (1.0.0):
+    - Fatal
+    - Moya (~> 12.0.1)
+    - RxOptional (~> 3.6.2)
+    - RxSwift (~> 4.4.2)
+    - SwiftyJSON (~> 4.2.0)
+    - YYKit (~> 1.0.9)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SkeletonView (1.4.2)
+  - SnapKit (4.2.0)
+  - SwiftyHUD (1.0.0):
+    - MBProgressHUD (~> 1.1.0)
+    - SwiftyHUD/Core (= 1.0.0)
+  - SwiftyHUD/Core (1.0.0):
+    - MBProgressHUD (~> 1.1.0)
+  - SwiftyJSON (4.2.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AppMusic (from `DevelopmentPods/AppMusic`)
+  - AudioService (from `DevelopmentPods/AudioService`)
+  - Fatal (from `DevelopmentPods/Fatal`)
+  - Fate (from `DevelopmentPods/Fate`)
+  - FDNamespacer (from `DevelopmentPods/FDNamespacer`)
+  - FOLDin (from `DevelopmentPods/FOLDin`)
+  - IQKeyboardManagerSwift
+  - Mediator (from `DevelopmentPods/Mediator`)
+  - RxMoya (from `DevelopmentPods/RxMoya`)
+  - SwiftyHUD (from `DevelopmentPods/SwiftyHUD`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - RxSwiftExt
+    - SDCycleScrollView
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - SwiftyJSON
+    - "UITableView+FDTemplateLayoutCell"
+    - YYKit
+
+EXTERNAL SOURCES:
+  AppMusic:
+    :path: DevelopmentPods/AppMusic
+  AudioService:
+    :path: DevelopmentPods/AudioService
+  Fatal:
+    :path: DevelopmentPods/Fatal
+  Fate:
+    :path: DevelopmentPods/Fate
+  FDNamespacer:
+    :path: DevelopmentPods/FDNamespacer
+  FOLDin:
+    :path: DevelopmentPods/FOLDin
+  Mediator:
+    :path: DevelopmentPods/Mediator
+  RxMoya:
+    :path: DevelopmentPods/RxMoya
+  SwiftyHUD:
+    :path: DevelopmentPods/SwiftyHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AppMusic: e7c7696fb83c26160d8b3bf0cdb55f5cf6153e03
+  AudioService: c2d97950ea0766966753a1d58eab74765137cb3d
+  Fatal: d28478369931430277d9d8b05f491ce6073efb9b
+  Fate: 026c2d58e8e1e1dbab93029558f74e888d9a0b43
+  FDNamespacer: 27e2f9b572a4a0ccd2b1f1f3377be08b91f62b7d
+  FOLDin: 334a3daf2de98f3f82d59d9d6e1ecd6f826e51bc
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Mediator: 54eac1012ec004596ede68737c3c0b89a250dc10
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxMoya: 3077e4a9c574004f98751388496e97de650ee596
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SkeletonView: c2523c3c8c6510e273e49a3bf364a434744c3914
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyHUD: dc6e70abc81010b127f24495c724f194e2736f97
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 453471c57c255937aff48672dfe52201ed896b21
+
+COCOAPODS: 1.6.0.beta.2

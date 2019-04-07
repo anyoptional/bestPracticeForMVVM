@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'FOLDin_Example' do
+  
+  pod 'FOLDin', :path => '../'
+  pod 'FDNamespacer', :path => '../../FDNamespacer'
+
+  target 'FOLDin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
