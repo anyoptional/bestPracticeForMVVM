@@ -262,8 +262,11 @@ fileprivate class AudioStreamer: NSObject, AudioStreamerProtocol {
         guard let audioList = currentAudioList else { return }
         for audio in listToRemove {
             if let index = audioList.firstIndex(where: { audio.isEqual($0) }) {
+                let curIndex = currentIndex
                 player.removeItem(at: index)
-                playNext()
+                if curIndex == index {
+                    playNext()
+                }
             }
         }
     }
