@@ -160,12 +160,8 @@ extension AudioProvider {
                         observables.append(AudioProvider.fetchAudioInfo(by: id))
                     }
                     // 403太多了 过滤掉
-                    return Observable.merge(observables).ignoreErrors({ (error) -> Bool in
-                        if let error = error as? ErrorConvertible, error.code == 403 {
-                            return true
-                        }
-                        return false
-                    }).mapObject(AudioInfoResp.self)
+                    return Observable.merge(observables)
+                        .mapObject(AudioInfoResp.self)
                         .map { $0.toMusicInfo() }
                         .filterNil()
                         .toArray()

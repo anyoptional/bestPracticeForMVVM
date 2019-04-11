@@ -160,8 +160,10 @@ extension AudioSheetListViewController {
                     } else {
                         self.placeholderView.state = .completed
                     }
-                    // 接口貌似不稳定 http code 403贼多
-                    SwiftyHUD.show(message: error.message)
+                    if error.code != 403 {
+                        // 接口貌似不稳定 http code 403贼多
+                        SwiftyHUD.show(message: error.message)
+                    }
                 }
             }.disposed(by: disposeBag)
     }
